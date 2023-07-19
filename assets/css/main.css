@@ -2974,18 +2974,54 @@ h3 {
 
 h4 {
 	color: #222;
-	font-size: 160%;
+	font-size: 170%;
 }
 
 .bigText:hover {
 	border-bottom-color: transparent;
 	color: #357ac5 !important;
+	
 }
 
 .smallText {
 	color: #222;
-	font-size: 120%;
+	font-size: 130%;
 }
+
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 10px;
+  }
+  
+  .image-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+  }
+  
+  .image-grid a {
+	display: block;
+  }
+  
+  .image-grid img {
+	width: 100%;
+	height: auto;
+	max-width: 350px; /* Adjust the image size as per your preference */
+	padding-right: 12%;
+  }
+  
+  .inner {
+	margin-left: 10px;
+  }
+  
+  .inner a {
+	color: inherit;
+	text-decoration: none;
+  }
+  
 
 /* Footer */
 
