@@ -3012,6 +3012,14 @@ h4 {
 	max-width: 350px; /* Adjust the image size as per your preference */
 	padding-right: 12%;
   }
+
+  .PokemonTypeBattle{
+	padding-right: 3%;
+  }
+  .PokemonTypeBattle a{
+	display: block;
+  }
+
   
   .inner {
 	margin-left: 10px;
