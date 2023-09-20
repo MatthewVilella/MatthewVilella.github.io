@@ -3020,6 +3020,17 @@ h4 {
 	display: block;
   }
 
+  .FruitClicker {
+	width: 120%;
+	padding-right: 35px;
+  }
+
+  .FruitClicker img{
+	width: 100%;
+	height: auto;
+	max-width: 1000px; /* Adjust the image size as per your preference */
+  }
+
   
   .inner {
 	margin-left: 10px;
